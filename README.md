@@ -3,7 +3,9 @@ This guide demonstrates how to perform load testing using containerized instance
 
 ### Usage
 
-If you haven't installed Docker Compose yet, you can download it from here: https://docs.docker.com/compose/install/ 
+- k6 installation guide: https://k6.io/docs/get-started/installation/ 
+
+- If you haven't installed Docker Compose yet, you can download it from here: https://docs.docker.com/compose/install/ 
 
 #### Note: Update your base URL in `/scripts/*.js` file before execution.
 
