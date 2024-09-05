@@ -1,11 +1,15 @@
 # K6 Load Testing with Grafana and InfluxDB
 This guide demonstrates how to perform load testing using containerized instances of K6, Grafana, and InfluxDB.
 
-### Usage
+### Installation
 
 - k6 installation guide: https://k6.io/docs/get-started/installation/ 
 
 - If you haven't installed Docker Compose yet, you can download it from here: https://docs.docker.com/compose/install/ 
+
+- K6 reporter : `npm install k6-html-reporter --save-dev` 
+
+### Usage
 
 #### Note: Update your base URL in `/scripts/*.js` file before execution.
 
